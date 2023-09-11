@@ -1,0 +1,33 @@
+.footer {
+  background-image: url("/images/bg_4.jpg");
+  background-size: cover;
+  height: 510px;
+  background-position: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 510px;
+  width: 100%;
+  background: #2f89fc;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+@media (max-width: 64rem) {
+  .footer,
+  .footer:before {
+    height: 750px;
+  }
+
+@media (max-width: 42rem) {
+  .footer,
+  .footer:before {
+    height: 1100px;
+  }
+}
+}

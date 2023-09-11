@@ -1,0 +1,20 @@
+.heroBackground {
+  background-image: url("/images/bg_3.jpg");
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  z-index: 0;
+}
+
+.heroBackground::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: calc(100vh - 110px);
+  width: 100%;
+  background: #2f89fc;
+  opacity: 0.6;
+  z-index: 0;
+}
