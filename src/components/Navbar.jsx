@@ -16,73 +16,49 @@ const Navbar = () => {
       <nav>
         <div className="">
           <div className="flex justify-between">
-            <Link to="/" className="px-7 py-5 text-green-500 font-bold">
-              Hidden brand
+            <Link onClick={toggle} to="/" className="px-7 py-5 text-green-500 font-bold">
+              Hotel
             </Link>
             <ul
               className={`absolute lg:static flex flex-col lg:flex-row right-1 lg:px-0 lg:mt-0 lg:py-0 lg:shadow-none px-6 mt-14 py-2 bg-white shadow ${
                 toggleNavigation === false ? "hidden lg:flex" : "flex"
               } transition duration-500 ease-in`}
             >
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/">
+                  Home
+              </Link>
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/rooms">
+                  Our Rooms
+              </Link>
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/services">
+                  Services
+              </Link>
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/restaurant">
+                  Restaurant
+              </Link>
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/about">
+                  About us
+              </Link>
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/blog">
+                  Blog
+              </Link>
+              
+              <Link onClick={toggle} className="py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500" to="/contact">
+                  Contact
+              </Link>
+
+              <button
+                className={`px-7 bg-blue-500 hover:bg-blue-600 text-white transition ease-in duration-300 hidden lg:block`}
+                style={{ height: "100%" }}
               >
-                <Link to="/">
-                    Home
-                </Link>
-              </li>
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
-              >
-                <Link to="/rooms">
-                    Our Rooms
-                </Link>
-              </li>
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
-              >
-                <Link to="/services">
-                    Services
-                </Link>
-              </li>
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
-              >
-                <Link to="/restaurant">
-                    Restaurant
-                </Link>
-              </li>
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
-              >
-                <Link to="/about">
-                    About us
-                </Link>
-              </li>
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
-              >
-                <Link to="/blog">
-                    Blog
-                </Link>
-              </li>
-              <li
-                className={`py-5 text-gray-500 px-7 border-b-4 border-transparent duration-300 cursor-pointer hover:border-green-500 transition-border ease-in hover:text-green-500`}
-              >
-                <Link to="/contact">
-                    Contact
-                </Link>
-              </li>
-              <li className={`text-gray-500 pl-7`}>
-                <Link to="/book">
-                  <button
-                    className={`px-7 bg-blue-500 hover:bg-blue-600 text-white transition ease-in duration-300 hidden lg:block`}
-                    style={{ height: "100%" }}
-                  >
-                    Book Now
-                  </button>
-                </Link>
-              </li>
+                Book Now
+              </button>
             </ul>
 
             <MdMenu

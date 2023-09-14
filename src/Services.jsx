@@ -14,7 +14,7 @@ const Service = () => {
 
       <div className="mt-24">
         <div className="grid grid-cols-1 gap-0 mx-4 md:mx-0">
-          <div id="parent" className={`md:flex`}>
+          <div id="parent" className={`md:flex items-center`}>
             <div className="relative h-48 md:h-auto md:w-1/2">
               <div className="">
                 <img
@@ -26,7 +26,7 @@ const Service = () => {
             </div>
 
             <div className="lg:p-20 md:p-10 p-6 md:w-1/2">
-              <h1 className="md:text-4xl text-3xl font-bold mb-6">
+              <h1 className="md:text-4xl text-3xl font-bold mb-6 mt-6 md:mt-0">
                 Our Swimming Pool
               </h1>
               <p className="leading-6 text-gray-400 tracking-wider">
@@ -42,7 +42,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div id="parent" className={`md:flex flex-row-reverse`}>
+          <div id="parent" className={`md:flex items-center flex-row-reverse`}>
             <div className="relative h-48 md:h-auto md:w-1/2">
               <div className="">
                 <img
@@ -54,7 +54,7 @@ const Service = () => {
             </div>
 
             <div className="lg:p-20 md:p-10 p-6 md:w-1/2">
-              <h1 className="md:text-4xl text-3xl font-bold mb-6">Our Bar</h1>
+              <h1 className="md:text-4xl text-3xl font-bold mb-6 mt-6 md:mt-0">Our Bar</h1>
               <p className="leading-6 text-gray-400 tracking-wider">
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Far far
@@ -68,7 +68,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div id="parent" className={`md:flex`}>
+          <div id="parent" className={`md:flex items-center`}>
             <div className="relative h-48 md:h-auto md:w-1/2">
               <div className="">
                 <img
@@ -79,7 +79,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="lg:p-20 md:p-10 p-6 md:w-1/2">
+            <div className="lg:p-16 md:p-10 p-6 md:w-1/2">
               <h1 className="md:text-4xl text-3xl font-bold mb-6">
                 Our Laundry Service
               </h1>

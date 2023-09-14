@@ -1,16 +1,16 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// import Swiper core and required modules
-import SwiperCore from "swiper";
+// Swiper modules
+import { Autoplay, Pagination } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
 
 import { AiFillStar } from "react-icons/ai";
 
 // Importing Image
 import testimonyImg from "/images/testimony-img.jpg";
-
-// install Swiper modules
-SwiperCore.use();
 
 const TestimonyComponent = ({ testimony }) => {
   return (
@@ -29,7 +29,7 @@ const TestimonyComponent = ({ testimony }) => {
           </div>
 
           <div className="md:col-span-3 col-span-5">
-            <div className="md:p-14 p-6 py-20">
+            <div className="md:p-14 p-6 lg:py-20 py-10">
               <h6 className="text-green-400 text-md font-semibold uppercase mb-4">
                 testimony
               </h6>
@@ -37,6 +37,7 @@ const TestimonyComponent = ({ testimony }) => {
                 Happy Customers
               </h1>
               <Swiper
+                modules={[Autoplay, Pagination]}
                 loop={true}
                 autoplay={{
                   delay: 3000,
@@ -45,8 +46,6 @@ const TestimonyComponent = ({ testimony }) => {
                 spaceBetween={50}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
               >
                
 
@@ -59,6 +58,60 @@ const TestimonyComponent = ({ testimony }) => {
                         <div className="ml-4">
                           <h3 className="text-xl text-blue-500 font-bold">
                             James Lou
+                          </h3>
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div>
+                      <p className="text-gray-400 mt-8 text-md tracking-wide leading-7">
+                        I had such a wonderful time here. It was a great experience! Looking forward to lodging here next summer for our annual conference
+                      </p>
+                      <div className="flex mt-8 mb-4 items-center">
+                        <div className="ml-4">
+                          <h3 className="text-xl text-blue-500 font-bold">
+                            John Doe
+                          </h3>
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                                <AiFillStar
+                                  className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"
+                                />
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div>
+                      <p className="text-gray-400 mt-8 text-md tracking-wide leading-7">
+                        I had such a wonderful time here. It was a great experience! Looking forward to lodging here next summer for our annual conference
+                      </p>
+                      <div className="flex mt-8 mb-4 items-center">
+                        <div className="ml-4">
+                          <h3 className="text-xl text-blue-500 font-bold">
+                            Jane Doe
                           </h3>
                                 <AiFillStar
                                   className="text-yellow-600 hover:text-yellow-800 cursor-pointer inline"

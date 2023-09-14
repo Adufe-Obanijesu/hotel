@@ -36,7 +36,7 @@ const AboutComponent = () => {
               </div>
             </div>
 
-            <div className="w-full h-full relative lg:col-span-1 md:col-span-1 col-span-2">
+            <div className="w-full h-full relative lg:col-span-1 md:col-span-1 col-span-2 hidden md:block">
               <div className="h-full">
                 <img
                   src={about2}

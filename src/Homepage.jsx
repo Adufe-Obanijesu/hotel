@@ -18,7 +18,7 @@ const Homepage = () => {
     <main className="">
       <section>
         <div
-          className="heroBackground z-0 relative flex items-center lg:justify-end sm:justify-center"
+          className="heroBackgroundHomepage z-0 relative flex items-center lg:justify-end sm:justify-center"
         >
           <div className="z-10 absolute font-bold lg:w-2/6 w-5/6 px-8 lg:px-0 text-white mr-40">
             <h4 className="text-lg text-smallHeadings uppercase">
