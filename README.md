@@ -3,7 +3,7 @@
 
 ---
 
-It's a beautifully crafted image rich website for hotels. Catch the attention of your guests, traveler or tourists with this stunning & professional looking website.
+It's a beautifully crafted image rich website for hotels. Catch the attention of your guests, travelers or tourists with this stunning & professional looking website.
 
 ![Demo Image](https://github.com/Adufe-Obanijesu/hotel/blob/main/public/images/thumbnail.png?raw=true)
 
