@@ -14,7 +14,7 @@ Click [here](https://cheerful-wisp-6f1261.netlify.app/) to view the live demo
 This project was built using __[Vite](https://vitejs.dev/guide/)__ (for faster development), __[React.JS](https://react.dev/learn/installation)__ and __[TailwindCSS](https://tailwindcss.com/)__
 
 #### Installation process
-AFter cloning the repo, install the neccessary dependencies
+After cloning the repo, install the neccessary dependencies
 
 ```bash
 npm install
@@ -30,4 +30,4 @@ npm run dev
 yarn run dev
 ```
 
-You are now good to go 8-)
+You are now good to go
