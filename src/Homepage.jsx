@@ -45,7 +45,7 @@ const Homepage = () => {
 
           <div className="lg:py-10 py-4">
             <h6 className="uppercase text-green-400 text-sm font-bold">
-              check-in date
+              check-out date
             </h6>
             <input
               type="date"
