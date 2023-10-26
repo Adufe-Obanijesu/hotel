@@ -25,7 +25,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="lg:p-20 md:p-10 p-6 md:w-1/2">
+            <div className="lg:p-20 md:p-10 py-6 md:w-1/2">
               <h1 className="md:text-4xl text-3xl font-bold mb-6 mt-6 md:mt-0">
                 Our Swimming Pool
               </h1>
@@ -53,7 +53,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="lg:p-20 md:p-10 p-6 md:w-1/2">
+            <div className="lg:p-20 md:p-10 py-6 md:w-1/2">
               <h1 className="md:text-4xl text-3xl font-bold mb-6 mt-6 md:mt-0">Our Bar</h1>
               <p className="leading-6 text-gray-400 tracking-wider">
                 Far far away, behind the word mountains, far from the countries
@@ -79,7 +79,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="lg:p-16 md:p-10 p-6 md:w-1/2">
+            <div className="lg:p-16 md:p-10 py-6 md:w-1/2">
               <h1 className="md:text-4xl text-3xl font-bold mb-6">
                 Our Laundry Service
               </h1>

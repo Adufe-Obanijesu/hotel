@@ -14,9 +14,9 @@ const Rooms = () => {
   return (
     <div>
       <Hero page="Rooms" />
-      <div className="px-2 lg:px-28 py-12">
+      <div className="lg:px-28 py-12">
         <div className="grid lg:grid-cols-2 grid-cols-1 grid-rows-1">
-          <div className="relative w-100 h-50 md:100" style={{ width: "100%" }}>
+          <div className="relative w-100 h-50 md:100 px-6" style={{ width: "100%" }}>
             <Swiper
               modules={[Autoplay]}
               style={{ height: "100%" }}
@@ -64,7 +64,7 @@ const Rooms = () => {
             </Swiper>
           </div>
 
-          <div className="px-12 py-8">
+          <div className="md:px-12 px-6 py-8">
             <h4 className="text-green-400 uppercase text-sm font-semibold mb-2">
               harbor lights hotel
             </h4>

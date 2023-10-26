@@ -12,11 +12,11 @@ import { AiFillStar } from "react-icons/ai";
 // Importing Image
 import testimonyImg from "/images/testimony-img.jpg";
 
-const TestimonyComponent = ({ testimony }) => {
+const TestimonyComponent = () => {
   return (
     <section id="testimony" className="relative">
       
-      <div className="lg:px-24 md:px-10 mt-16 lg:mt-0">
+      <div className="lg:px-24 md:px-6 mt-16 lg:mt-0">
         <div className="grid grid-cols-5 gap-0">
           <div className="md:col-span-2 hidden md:block lg:block">
             <div className="w-full h-96 relative">
@@ -29,7 +29,7 @@ const TestimonyComponent = ({ testimony }) => {
           </div>
 
           <div className="md:col-span-3 col-span-5">
-            <div className="md:p-14 p-6 lg:py-20 py-10">
+            <div className="md:p-14 p-6 lg:py-20">
               <h6 className="text-green-400 text-md font-semibold uppercase mb-4">
                 testimony
               </h6>

@@ -1,7 +1,7 @@
 // Importing atoms
 import BlogAtom from "./atoms/BlogAtom";
 
-const BlogComponent = ({ blogs }) => {
+const BlogComponent = () => {
   return (
     <section id="blog" className="py-10 lg:py-24">
       <div>
@@ -12,7 +12,7 @@ const BlogComponent = ({ blogs }) => {
           Recent Blog
         </h1>
 
-        <div className="mt-12 lg:px-24 px-8">
+        <div className="mt-12 lg:px-24 px-6">
           <div className="md:grid lg:grid-cols-3 md:grid-cols-3 gap-4">
               <BlogAtom name="New Renovations" date="Mon, 25th August 2022" content="Great work has been done in spicing things up here in the hotel. We have reconstructed the conference room" image="image_1.jpg" />
               <BlogAtom name="New Renovations" date="Sat, 23rd August 2022" content="Great work has been done in spicing things up here in the hotel. We have reconstructed the conference room" image="image_2.jpg" />

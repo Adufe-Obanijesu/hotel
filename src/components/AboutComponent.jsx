@@ -5,16 +5,16 @@ import about2 from "/images/about-2.jpg";
 const AboutComponent = () => {
   return (
     <section className="about mt-8 lg:mt-24">
-      <div className="lg:px-24 px-10">
-        <div className="grid grid-cols-5 gap-0">
-          <div className="py-14 lg:col-span-2 md:col-span-5 col-span-5 w-4/5">
+      <div className="lg:px-24 px-6">
+        <div className="grid grid-cols-5 md:gap-0 gap-8">
+          <div className="md:py-14 lg:col-span-2 md:col-span-5 col-span-5 md:w-4/5">
             <h6 className="uppercase text-green-400 mb-2 font-semibold text-sm">
               About harbor lights hotel
             </h6>
-            <h1 className="lg:text-4xl md:text-4xl text-3xl leading-normal font-bold">
+            <h1 className="lg:text-4xl md:text-4xl text-2xl leading-normal font-bold">
               Harbor Lights Hotel the Most Recommended Hotel All Over the World
             </h1>
-            <p className="text-gray-400 mt-8 tracking-wide leading-7">
+            <p className="text-gray-400 md:mt-8 mt-4 tracking-wide leading-7">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast of the Semantics, a
@@ -25,7 +25,7 @@ const AboutComponent = () => {
             </button>
           </div>
 
-          <div className="lg:col-span-3 md:col-span-5 col-span-5 grid grid-cols-2 gap-4">
+          <div className="lg:col-span-3 md:col-span-5 col-span-5 order-first md:order-last grid grid-cols-2 gap-4">
             <div className="w-full h-full relative lg:col-span-1 md:col-span-1 col-span-2">
               <div className="h-full">
                 <img

@@ -12,7 +12,7 @@ const GalleryComponent = () => {
           Photos
         </h1>
 
-        <div className="grid mt-12 md:grid-cols-4 grid-cols-2 gap-0">
+        <div className="grid md:mt-12 mt-8 md:grid-cols-4 grid-cols-2 gap-0">
           <GalleryAtom galleryImage="insta-2.jpg" />
           <GalleryAtom galleryImage="insta-3.jpg" />
           <GalleryAtom galleryImage="insta-4.jpg" />

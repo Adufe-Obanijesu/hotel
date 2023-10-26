@@ -4,7 +4,7 @@ import diner from "/images/dining-img.png";
 // Importing atoms
 import RestaurantAtom from "./atoms/RestaurantAtom";
 
-const RestaurantComponent = ({ menu }) => {
+const RestaurantComponent = () => {
   return (
     <section id="restaurant" className="py-10 lg:py-24 bg-lightgray">
       <div>
@@ -15,7 +15,7 @@ const RestaurantComponent = ({ menu }) => {
           Our Diner
         </h1>
 
-        <div className="relative h-72 mx-8 my-6">
+        <div className="relative h-72 px-6 my-6">
           <img
             src={diner}
             className="h-full w-full object-cover"
@@ -26,7 +26,7 @@ const RestaurantComponent = ({ menu }) => {
         <h1 className="lg:text-3xl md:text-3xl text-xl mt-12 leading-normal font-bold text-center">
           Our Specialties
         </h1>
-        <div className="mt-12 md:grid lg:grid-cols-3 md:grid-cols-2 gap-4 mx-8">
+        <div className="mt-12 md:grid lg:grid-cols-3 md:grid-cols-2 gap-4 px-6">
           <RestaurantAtom name="Ice Cream" price="$50" desc="Sweet sweet ice cream for the children" image="meal-1.jpg" />
           <RestaurantAtom name="Ice Cream" price="$50" desc="Sweet sweet ice cream for the children" image="meal-2.jpg" />
           <RestaurantAtom name="Ice Cream" price="$50" desc="Sweet sweet ice cream for the children" image="meal-3.jpg" />

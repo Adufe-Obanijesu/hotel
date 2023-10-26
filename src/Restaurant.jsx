@@ -5,12 +5,12 @@ import Hero from "./components/Hero";
 import RestaurantAtom from "./components/atoms/RestaurantAtom";
 import Chef from "./components/Chef";
 
-const Restaurant = ({ menu }) => {
+const Restaurant = () => {
   return (
     <section id="restaurant">
       <Hero page="Restaurant" />
 
-      <div className="py-24 bg-lightgray">
+      <div className="lg:py-24 md:py-16 py-10 bg-lightgray">
         <h6 className="uppercase text-green-400 mb-2 font-bold text-sm text-center">
           restaurant
         </h6>
@@ -18,7 +18,7 @@ const Restaurant = ({ menu }) => {
           Our Diner
         </h1>
 
-        <div className="relative h-72 mx-8 my-6">
+        <div className="relative h-72 md:px-12 px-6 my-6">
           <img
             src={diner}
             className="h-full w-full object-cover"
@@ -26,11 +26,11 @@ const Restaurant = ({ menu }) => {
           />
         </div>
 
-        <h1 className="lg:text-3xl md:text-3xl text-xl leading-normal font-bold text-center">
+        <h1 className="lg:text-3xl md:text-3xl text-2xl leading-normal font-bold text-center">
           Our Specialties
         </h1>
 
-        <div className="mt-12 md:grid lg:grid-cols-3 md:grid-cols-2 gap-4 mx-8">
+        <div className="mt-12 md:grid lg:grid-cols-3 md:grid-cols-2 gap-4 md:px-12 px-6">
           <RestaurantAtom name="Ice Cream" price="$50" desc="Sweet sweet ice cream for the children" image="meal-1.jpg" />
           <RestaurantAtom name="Ice Cream" price="$50" desc="Sweet sweet ice cream for the children" image="meal-2.jpg" />
           <RestaurantAtom name="Ice Cream" price="$50" desc="Sweet sweet ice cream for the children" image="meal-3.jpg" />
@@ -48,7 +48,7 @@ const Restaurant = ({ menu }) => {
         </div> 
       </div>
 
-      <div className="py-24 md:px-24 px-8">
+      <div className="lg:py-24 md:py-16 py-10 md:px-12 px-6">
         <h1 className="lg:text-4xl md:text-4xl text-3xl leading-normal font-bold text-center">
           Meet Our Chefs
         </h1>
